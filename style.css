@@ -1,0 +1,111 @@
+@font-face{
+  font-family: 'Citrica-Regular';
+src: url('./fonts/Citrica-Regular.ttf');
+}
+@font-face{
+  font-family: 'Intro_Inline';
+src: url('./fonts/Intro_Inline.ttf');
+}
+
+*{
+  font-family: "Citrica-Regular";
+  letter-spacing:0.5px;
+}
+body{
+  overflow-x: hidden;
+}
+
+.row{
+  margin: 0;
+}
+
+.header {
+  min-height: 800px;
+  background-size: cover;
+}
+
+a.navigation{
+  color: black;
+  font-size: 22px;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+a.navigation:hover{
+  color: white;
+  text-decoration: none;
+}
+
+div.col-md-3{
+text-align: center;
+border: 1px black solid;
+padding: 0;
+padding-top: 5px;
+}
+
+div.col-md-6{
+  border: 7px solid black;
+  padding: 0;
+}
+
+div.col-md-3:hover{
+  background: black;
+  color: white;
+}
+div.col-md-3:active{
+  background: black;
+  color: white;
+}
+
+.aboutMe{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  min-height: 800px;
+}
+
+.aboutText{
+  padding: 0 90px;
+}
+
+h1{
+  font-family: 'Intro_Inline';
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 13px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.portfolio{
+    background-color: black;
+}
+
+div.row2{
+  padding: 0;
+  border: 7px solid black;
+}
+
+.contacts{
+  min-height: 300px;
+}
+
+div.contact{
+  border: none;
+  text-align: center;
+  font-size: 30px;
+}
+a.con{
+  color: black;
+}
+
+div.footer{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  min-height: 100px;
+  padding-top: 37px;
+}
